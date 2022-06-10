@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freelance_fx/constants/colors.dart';
+import 'package:freelance_fx/view/constants/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SellerHomeScreen extends StatelessWidget {

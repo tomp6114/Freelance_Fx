@@ -22,7 +22,7 @@ class _BottomNavigationBuyerState extends State<BottomNavigationBuyer> {
     });
   }
 
-  final pages = const [
+  final pages = [
     HomeScreenBuyer(),
     ChatScreenBuyer(),
     CategoriesScreen(),

@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:freelance_fx/sharedPreference.dart';
+import 'package:freelance_fx/view/screens/onboard_screens/splash_screen.dart';
 import 'package:get/get.dart';
 
-import 'screens/onboard_screens/splash_screen.dart';
 
 
 
-void main(List<String> args) {
+
+void main(List<String> args) async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await SavedId.init();
   runApp(Myapp());
 }
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freelance_fx/screens/seller_screen/chat_screen/seller_chat_sceen.dart';
+import 'package:freelance_fx/view/screens/seller_screen/chat_screen/seller_chat_sceen.dart';
 import '../account_screen_seller/seller_account_screen.dart';
 import '../home_page_seller/seller_home_screen.dart';
 import '../manage_orders/seller_manage_orders.dart';
